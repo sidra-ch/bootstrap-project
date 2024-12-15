@@ -48,6 +48,7 @@ nav {
 }
 .gray {
   width: 100%;
+  max-width: 70%;
   height: 2px;
   background-color: lightgrey;
   margin: auto;
@@ -107,6 +108,15 @@ nav {
 .img-parent:hover .img-content {
   transform: translateY(0);
 }
+.carousel-item img {
+  height: 50vh !important ;
+  object-fit: cover;
+}
+.clip-circle{
+  clip-path: circle() !important;
+}
+
+
 @media (max-width: 767px) {
   .team-image {
     width: 40% !important;
